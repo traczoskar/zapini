@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./ui/navbar";
 import ActionButtons from "./ui/action-buttons";
 import Footer from "./ui/footer";
+import Products from "./ui/products";
 
 export default function Home() {
   return (
@@ -21,9 +22,10 @@ export default function Home() {
 
         <ActionButtons />
       </header>
-      <main>
-        <Footer />
+      <main className="w-full max-w-[1100px] flex flex-col items-center">
+        <Products />
       </main>
+      <Footer />
     </>
   );
 }
