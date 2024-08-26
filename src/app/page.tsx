@@ -19,7 +19,6 @@ export default function Home() {
           width={16}
           height={9}
         />
-
         <ActionButtons />
       </header>
       <main className="w-full max-w-[1100px] flex flex-col items-center">
