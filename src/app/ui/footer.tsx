@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white text-neutral-500 py-12  w-full">
+    <footer id="kontakt" className="bg-white text-neutral-500 py-12  w-full">
       <div className="container mx-auto flex gap-36 max-w-[1100px]">
         {/* Logo section */}
         <div className="flex items-center space-x-4">
