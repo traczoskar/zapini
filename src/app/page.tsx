@@ -12,12 +12,13 @@ export default function Home() {
         </h1>
         <Navbar />
         <Image
-          src="/background.jpg"
-          alt="Vercel Logo"
+          src="/background_2.jpg"
+          alt="Tło strony"
           layout="responsive"
           width={16}
           height={9}
         />
+
         <ActionButtons />
       </header>
       <main>
