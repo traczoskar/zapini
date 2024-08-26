@@ -15,9 +15,6 @@ const Navbar: React.FC = () => {
       </Link>
       <ul className="flex gap-8 text-xl font-semibold text-neutral-700 items-center">
         <li className="hover:text-sky-600 hover:scale-105 transition px-2 py-2">
-          <Link href="/">Home</Link>
-        </li>
-        <li className="hover:text-sky-600 hover:scale-105 transition px-2 py-2">
           <Link href="/menu.pdf" target="_blank" rel="noopener noreferrer">
             Menu
           </Link>
