@@ -18,7 +18,9 @@ const Navbar: React.FC = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="hover:text-sky-600 hover:scale-105 transition px-2 py-2">
-          <Link href="/menu">Menu</Link>
+          <Link href="/menu.pdf" target="_blank" rel="noopener noreferrer">
+            Menu
+          </Link>
         </li>
         <li className="hover:text-sky-600 hover:scale-105 transition px-2 py-2">
           <Link href="/contact">Kontakt</Link>
