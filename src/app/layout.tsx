@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Zapini",
   description: "Najlepsze zapiekanki w mieście",
-  icons: "/favicon.png",
+  icons: "/icon.png",
   authors: { name: "Oskar Tracz", url: "https://traczoskar.dev" },
   keywords: [
     "zapiekanki",
@@ -31,7 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased min-h-screen`}>
+        {children}
+      </body>
     </html>
   );
 }
