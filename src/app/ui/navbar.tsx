@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="absolute flex justify-between right-0 max-w-[1100px] w-full right-1/2 translate-x-1/2 top-8">
+    <nav className="absolute flex justify-between max-w-[1100px] w-full right-1/2 translate-x-1/2 top-8">
       <Link href="/">
         <Image
           className="hover:scale-105 transition-transform drop-shadow-md "
