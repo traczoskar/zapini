@@ -12,16 +12,26 @@ export default function Home() {
           Zapini - Najlepsze zapiekanki w Słupsku
         </h1>
         <Navbar />
-        <Image
+      </header>
+      <main className="w-full max-w-[1100px] flex flex-col items-center">
+        <div className="h-96 flex w-full items-center py-96">
+          <Image
+            className="absolute top-40 right-0 z-10"
+            src="/sandwich_nobg.png"
+            alt="Tło strony"
+            width={1000}
+            height={300}
+            priority
+          />
+          {/* <Image
           src="/background_2.jpg"
           alt="Tło strony"
           layout="responsive"
           width={16}
           height={9}
-        />
-        <ActionButtons />
-      </header>
-      <main className="w-full max-w-[1100px] flex flex-col items-center">
+        /> */}
+          <ActionButtons />
+        </div>
         <Products />
       </main>
       <Footer />
