@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer: React.FC = () => {
   return (
     <footer id="kontakt" className="bg-white text-neutral-500 py-12  w-full">
-      <div className="container mx-auto flex gap-36 max-w-[1100px]">
+      <div className="container mx-auto flex flex-col md:flex-row gap-36 md:max-w-[1100px]">
         {/* Logo section */}
         <div className="flex items-center space-x-4">
           <Image
