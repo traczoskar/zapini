@@ -1,5 +1,7 @@
-import Image from "next/image";
 import CircularImage from "./circular-image";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const Products: React.FC = () => {
   const products = [
@@ -26,7 +28,10 @@ const Products: React.FC = () => {
     <div className="flex flex-col items-center container py-40">
       <ul className="w-full flex justify-between gap-12">
         {products.map((product, index) => (
-          <li key={index} className="flex flex-col gap-6 items-center ">
+          <li
+            key={index}
+            className={`${inter.className} flex flex-col gap-6 items-center `}
+          >
             <CircularImage src={product.image} alt={product.name} />
             <h3 className="font-bold text-2xl">{product.name}</h3>
             <p className="text-center w-64">{product.description}</p>
