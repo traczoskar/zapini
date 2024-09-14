@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const leagueSpartan = League_Spartan({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Zapini",
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${inter.className} antialiased min-h-screen flex flex-col items-center w-full`}
+        className={`${leagueSpartan.className} antialiased min-h-screen flex flex-col items-center w-full`}
       >
         {children}
       </body>
