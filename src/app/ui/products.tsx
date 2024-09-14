@@ -26,7 +26,7 @@ const Products: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center container py-40">
-      <ul className="w-full flex justify-between gap-12">
+      <ul className="w-full flex flex-col md:flex-row justify-between gap-12">
         {products.map((product, index) => (
           <li
             key={index}
