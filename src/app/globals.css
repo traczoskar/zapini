@@ -5,6 +5,7 @@
 :root {
   --primary-color: #f6DCC8;
   --secondary-color: #C6E1EC;
+  --text-color: #555555;
 }
 
 
@@ -20,6 +21,8 @@ html {
 
 body {
   background: var(--primary-color);
+  color: var(--text-color);
+
 }
 
 @layer utilities {
