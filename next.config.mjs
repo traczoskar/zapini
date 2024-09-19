@@ -7,6 +7,7 @@ const nextConfig = {
     });
     return config;
   },
+  generateEtags: true,
 };
 
 export default nextConfig;
