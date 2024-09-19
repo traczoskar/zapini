@@ -1,40 +1,41 @@
 import CircularImage from "./circular-image";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Products: React.FC = () => {
   const products = [
     {
-      name: "Bajgiel",
+      name: "Bajgle na Okrągło",
       image: "/products/bagel.jpg",
-      description: "Pyszne okrągłe pieczywo z dziurką po środku.",
+      description:
+        "Puszyste, chrupiące bajgle z różnorodnymi dodatkami, idealne na każdą porę dnia.",
     },
     {
-      name: "Kanapki",
+      name: "Bagietki z Charakterem",
       image: "/products/sandwich.jpg",
       description:
-        "Smaczne połączenie składników między dwoma kromkami chleba.",
+        "Chrupiące bagietki z wyrazistymi smakami, które rozbudzą Twoje kubki smakowe.",
     },
     {
-      name: "Zapiekanki",
+      name: "Zapiekanki z Pasją",
       image: "/products/toast.jpg",
       description:
-        "Grillowana kanapka z włoskim chlebem i różnymi nadzieniami.",
+        "Klasyczne zapiekanki przygotowane z pasją, wypełnione smakowitymi składnikami i zapieczone do perfekcji.",
     },
   ];
 
   return (
-    <div className="flex flex-col items-center container py-40">
+    <div className="flex flex-col items-center container pt-10 md:pb-40 pb-10">
       <ul className="w-full flex flex-col md:flex-row justify-between gap-12">
         {products.map((product, index) => (
           <li
             key={index}
-            className={`${inter.className} flex flex-col gap-6 items-center `}
+            className={`${montserrat.className} flex flex-col gap-6 items-center `}
           >
             <CircularImage src={product.image} alt={product.name} />
-            <h3 className="font-bold text-2xl">{product.name}</h3>
-            <p className="text-center w-64">{product.description}</p>
+            <h3 className="font-semibold text-xl md:text-2xl text-center">{product.name}</h3>
+            <p className="text-center md:text-base px-4 md:px-0 text-sm w-64">{product.description}</p>
           </li>
         ))}
       </ul>
