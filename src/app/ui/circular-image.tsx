@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CircularImage = ({ src, alt }: { src: string; alt: string }) => {
   return (
-    <div className="w-48 h-48 lg:w-64 lg:h-64 overflow-hidden drop-shadow-md rounded-full">
+    <div className="w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 overflow-hidden drop-shadow-md rounded-full">
       <Image
         src={src}
         alt={alt}
