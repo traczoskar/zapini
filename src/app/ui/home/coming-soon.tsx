@@ -16,7 +16,7 @@ export default function ComingSoon() {
     targetDate.setDate(
       targetDate.getDate() + ((6 - targetDate.getDay() + 7) % 7)
     );
-    targetDate.setHours(9, 0, 0, 0);
+    targetDate.setHours(11, 0, 0, 0);
 
     const timer = setInterval(() => {
       const now = new Date();
@@ -48,8 +48,8 @@ export default function ComingSoon() {
         sizes="100vw"
       />
       <h1 className="absolute w-1 h-1 overflow-hidden clip-rect-0">
-          Zapini - Najlepsze zapiekanki w Słupsku
-        </h1>
+        Zapini - Najlepsze zapiekanki w Słupsku
+      </h1>
       <h2 className="text-3xl md:text-4xl font-bold mb-8">Wkrótce otwarcie!</h2>
       <div className="flex space-x-4 border-2 border-zinc-100 bg-[#C6E1EC] px-10 py-4 rounded-full drop-shadow-md">
         {Object.entries(timeLeft).map(([unit, value]) => (
