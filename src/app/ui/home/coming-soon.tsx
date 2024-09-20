@@ -68,7 +68,7 @@ export default function ComingSoon() {
           do naszego lokalu na ul. Bema 14 w Słupsku!
         </h3>
         <h3 className="text-lg font-semibold text-center">
-          Otwieramy o godz. 9.00
+          Otwieramy o godz. 11.00
         </h3>
       </div>
     </main>
