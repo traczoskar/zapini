@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥯 Zapini - Delicious Breakfasts in Słupsk
 
-## Getting Started
+![Header](/public/zapini_header.png)
 
-First, run the development server:
+Discover a new way to start your day with **Zapini**. This web application showcases our delightful breakfast offerings, including fresh bagels, baguettes, and toasted sandwiches, all available for delivery or pickup in Słupsk, Poland.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👨🏻‍💻 Check out the Live Site
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[**Click Here**](https://www.zapini.pl) 👈
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Website Preview](/public/og-image.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠 Tech Stack
 
-## Learn More
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-To learn more about Next.js, take a look at the following resources:
+## ✅ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🥐 **Product Showcase**: Beautifully displayed breakfast options including bagels, baguettes, and toasted sandwiches.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🚚 **Online Ordering**: Seamless integration with our ordering system for both delivery and pickup options.
 
-## Deploy on Vercel
+📱 **Responsive Design**: A mobile-first approach ensures a great user experience on all devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎨 **Custom Styling**: Tailored design with custom color scheme and typography for brand consistency.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🗺 **Location Information**: Easy access to our address and contact details for customer convenience.
+
+⏰ **Opening Hours**: Clearly displayed business hours to inform customers when we're open.
+
+🔗 **Social Media Integration**: Direct links to our Facebook and Instagram profiles for increased engagement.
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/your-username/zapini-website.git
+   cd zapini-website
+   ```
+
+2. **Install Dependencies**:
+   ```sh
+   pnpm install
+   ```
+
+3. **Run the Development Server**:
+   ```sh
+   pnpm dev
+   ```
+
+4. **Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.**
+
+## 📖 Project Structure
+
+The project follows the standard Next.js structure with some custom organization:
+
+- `src/app`: Contains the main application code
+- `src/app/ui`: Houses reusable UI components
+- `public`: Stores static assets like images and icons
