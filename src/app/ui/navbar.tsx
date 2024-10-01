@@ -29,6 +29,16 @@ const Navbar: React.FC = () => {
             menu
           </Link>
         </li>
+        {/* <li className="hover:text-sky-600 hover:scale-105 text-[60px] transition ">
+          <Link
+            href="/oferta"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Oferta Zapini - Oferta cateringowa"
+          >
+            oferta
+          </Link>
+        </li> */}
         <li className="hover:text-sky-600 hover:scale-105 transition font-[600] md:font-bold pt-3 ">
           <a href="tel:+48535630040">535 630 040</a>
         </li>
